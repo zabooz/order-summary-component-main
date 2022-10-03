@@ -6,7 +6,6 @@ body {
     background-repeat: no-repeat;
     background-position-x: center;
     background-color: hsl(225, 100%, 94%);
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,30 +18,32 @@ header {
     margin-top: 6rem;
 }
 #hero {
+    max-width: 28rem;
     width: 100%;
-    object-fit: contain;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
 }
 h1,
-h3,
+h2,
 a {
     font-weight: 900;
     margin-bottom: .2rem;
 }
-#info {
-    text-align: center;
-    padding: 1rem 4rem;
-    margin: 0;
-    line-height: 160%
-}
-
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 28rem;
     background-color: white;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+#info {
+    text-align: center;
+    padding: 1rem 4rem;
+    margin: 0;
+    line-height: 160%
 }
 .container {
     display: flex;
@@ -90,6 +91,7 @@ a:hover,
     font-weight: 800;
     color: rgba(0,0,0,.5);
     width: 90%;
+    margin-bottom: 2rem;
 }
 .cancel:hover {
     color:rgba(0,0,0,1) ;
