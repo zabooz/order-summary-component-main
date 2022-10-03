@@ -29,6 +29,9 @@ a {
     font-weight: 900;
     margin-bottom: .2rem;
 }
+h2 {
+    font-size: 1rem;
+}
 main {
     display: flex;
     flex-direction: column;
@@ -49,7 +52,7 @@ main {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 90%;
+    width: 70%;
     background-color: hsl(225, 100%, 98%);
     gap: 2rem;
     border-radius: 1rem;
@@ -58,7 +61,7 @@ main {
 a {
     flex-grow: 2;
     text-align: end;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 a:hover,
 .pay:hover {
@@ -71,12 +74,12 @@ a:hover,
     gap:2rem;
 }
 #icon {
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 .pay {
     background-color:hsl(245, 75%, 52%);
     color: white;
-    width: 90%;
+    width: 70%;
     padding: .8rem;
     border-radius: .7rem;
     margin-top: 2rem;
