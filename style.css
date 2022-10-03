@@ -40,6 +40,7 @@ main {
     background-color: white;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    box-shadow: 0rem 1rem 1rem 0 rgba(0,0,0,.2)
 }
 
 #info {
